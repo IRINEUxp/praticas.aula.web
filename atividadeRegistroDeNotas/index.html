@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de notas</title>
+    <link rel="stylesheet" href="modelo.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div id="container">
+            <div id="conteudo">
+                <h1>Registro de Notas</h1>
+                <div id="inputs">
+                    <p>Nome: </p>
+                    <div class="in"><input type="text" id="nome"></div>
+                    <p>Nota: </p>
+                    <div class="in"><input type="number" id="nota"></div>
+                </div>
+                <div id="botao">
+                    <button onclick="inserirAluno()">
+                        <p>Inserir aluno</p>
+                        <span class="material-symbols-outlined">
+                            arrow_insert
+                        </span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="container2">
+                <table id="tabela">
+                    <thead>
+                        <tr>
+                            <th>Nome do aluno</th>
+                            <th>Nota</th>
+                        </tr>
+                    </thead>
+                    <tbody id="corpoTabela"></tbody>
+                </table>
+            </div>
+        </div>
+        
+    </main>
+    
+</body>
+</html>

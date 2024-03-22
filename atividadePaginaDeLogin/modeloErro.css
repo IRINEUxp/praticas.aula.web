@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;  
+    width: 100vw;
+    max-height: 100vh;
+    background: url('forest.jpg') center no-repeat;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#container{
+    width: 400px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px black;
+    backdrop-filter: blur(10px);
+}
+
+h1{
+    margin-bottom: 50px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+a:hover{
+    color: green;
+}

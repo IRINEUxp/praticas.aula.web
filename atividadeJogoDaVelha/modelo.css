@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+body{
+    height: 92vh;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient( #b3b4d4, #9999b8);
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 100px));
+    grid-template-rows: repeat(3, minmax(100px, 100px));
+    justify-content: center;
+    align-content: start;
+    align-items: stretch;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+    color: #494a66;
+}
+
+.bloco p{
+    font-size: 35px;
+    font-weight: 100;
+    color: #494a66;
+}
+
+.botao{
+    width: 100px;
+    height: 28px;
+    position: relative;
+    margin: 80px auto;
+    gap: 5px;
+    border: 1px solid #494a66;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+.botao:hover {
+    background-color: #494a66;
+    color: black;
+}
+
+.botao:hover span,
+.botao:hover p{
+    color: black;
+}
+
+button{
+    background: none;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin: 0 auto;
+}
+
+.botao button p{
+    font-weight: 600;
+    color: #494a66;
+}
+
+span{
+    color: #494a66;
+    transition: 0.2s ease-in-out;
+}
+
+.bloco{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.bloco:hover{
+    box-shadow: 0 5px 10px #646481;
+}
+
+.bloco1, .bloco2, .bloco3, .bloco4, .bloco5, .bloco6{
+    border-bottom: 1px solid #7e7f9d;
+}
+
+.bloco7, .bloco8, .bloco9, .bloco4, .bloco5, .bloco6{
+    border-top: 1px solid #7e7f9d;
+}
+
+.bloco1, .bloco4, .bloco7, .bloco2, .bloco5, .bloco8{
+    border-right: 1px solid #7e7f9d;
+}
+
+.bloco3, .bloco6, .bloco9, .bloco2, .bloco5, .bloco8{
+    border-left: 1px solid #7e7f9d;
+}
+

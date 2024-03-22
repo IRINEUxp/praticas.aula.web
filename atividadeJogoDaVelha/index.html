@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="modelo.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Jogo da Velha</h1>
+
+        <section id="container">
+            <div onclick="clique(0)"  class="bloco bloco1"><p id="0"></p></div>
+            <div onclick="clique(1)"  class="bloco bloco2"><p id="1"></p></div>
+            <div onclick="clique(2)"  class="bloco bloco3"><p id="2"></p></div>
+            <div onclick="clique(3)"  class="bloco bloco4"><p id="3"></p></div>
+            <div onclick="clique(4)"  class="bloco bloco5"><p id="4"></p></div>
+            <div onclick="clique(5)"  class="bloco bloco6"><p id="5"></p></div>
+            <div onclick="clique(6)"  class="bloco bloco7"><p id="6"></p></div>
+            <div onclick="clique(7)"  class="bloco bloco8"><p id="7"></p></div>
+            <div onclick="clique(8)"  class="bloco bloco9"><p id="8"></p></div>
+        </section>
+
+        <div class="botao">
+            <button onclick="resetarGame()">
+                <span class="material-symbols-outlined">
+                    restart_alt
+                </span>
+                <p>Restart</p>
+            </button>
+        </div>
+    </main>
+    
+</body>
+</html>
